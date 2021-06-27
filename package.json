@@ -1,0 +1,27 @@
+{
+  "name": "lrp",
+  "version": "1.0.0",
+  "description": "Small command line tool for lazy developers",
+  "preferGlobal": true,
+  "bin": {
+    "lrp": "./bin/index.js"
+  },
+  "keywords": [
+    "liferay",
+    "liferay portal"
+  ],
+  "author": "beltran rengifo",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^8.0.0",
+    "inquirer": "^8.1.1",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "2.3.1"
+  }
+}
