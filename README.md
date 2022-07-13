@@ -27,6 +27,13 @@ My personal collection of shortcuts for most common actions during Liferay produ
 
 `lrp morning` is a convenience group of commands executed almost daily. It stops the portal, if running, updates the code, restores the SQL database and run the portal again. Used daily.
 
+### PR
+
+`lrp pr` is an abstraction above [Github CLI](https://cli.github.com/) pull request command. It allows to get or send pull request from and to any fork of the Liferay Portal.
+
+- `lrp pr get liferay-tango 2222` where _liferay-tango_ is the name of the repo where the pr is, and _2222_ is the id of the pr.
+- `lrp pr post liferay-tango` will place a new pr in the mentioned repo
+
 ### Restore SQL
 
 `lrp restore-sql` deletes and creates a new sql database for the portal with the default configs. Used daily.
