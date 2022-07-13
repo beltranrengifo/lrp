@@ -1,6 +1,6 @@
 # LRP
 
-My personal collection of shortcuts for most common actions during Liferay product development. I do this for fun and for messing around with [`Commander`](https://www.npmjs.com/package/commander), but it also allows me have to remember less stuff.
+A collection of shortcuts for most common actions during Liferay product development. I do this for fun and for messing around with [`Commander`](https://www.npmjs.com/package/commander), but it also allows me have to remember less stuff.
 
 ## Commands
 
