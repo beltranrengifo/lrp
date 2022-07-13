@@ -25,7 +25,7 @@ My personal collection of shortcuts for most common actions during Liferay produ
 
 ### Morning
 
-`lrp morning` is a convenience command executed almost daily. It stop the portal, if running, updates the code, restores the SQL database and run the portal again. Used daily.
+`lrp morning` is a convenience group of commands executed almost daily. It stops the portal, if running, updates the code, restores the SQL database and run the portal again. Used daily.
 
 ### Restore SQL
 
