@@ -6,26 +6,26 @@ My personal collection of shortcuts for most common actions during Liferay produ
 
 ### Build 🏗
 
-`lrp build` executes the `ant all` command needed for building all modules of the portal. Used almost every day.
+`lrp build` is just an alias that executes the `ant all` command needed for building all modules of the portal. Used almost every day.
 
 ### Clean 🧹
 
-`lrp clean` removes all files created in the local repository. Used when unexpected behaviours occur, rarely.
+`lrp clean` is an abstraction of a `git clean` complex command that removes all files created in the local repository. Used when unexpected behaviours occur, rarely.
 
 ### Deploy 📦
 
-`lrp deploy` builds the module where executed. Used intensively 😅
+`lrp deploy` is an abstraction for a `gradle` task that builds the module where executed. Used intensively 😅
 
 - Use `-a` option to use a fast deploy without installing dependencies.
 - Use `-w` option for watching for changes.
 
 ### Format 🖼
 
-`lrp format` performs a formatter to the source code of the module where executed. Used often.
+`lrp format` is an abstraction for a `gradle` task that performs a formatter to the source code of the module where executed. Used often.
 
 ### Morning ☕️
 
-`lrp morning` is a convenience group of commands executed almost daily. It stops the portal, if running, updates the code, restores the SQL database and run the portal again. Used daily.
+`lrp morning` is a convenience group of commands executed almost daily. It stops the portal if running, updates the upstream and origin code, restores the SQL database and run the portal again. Used daily.
 
 ### PR 👨‍🏫
 
@@ -36,19 +36,19 @@ My personal collection of shortcuts for most common actions during Liferay produ
 
 ### Restore SQL ⌫
 
-`lrp restore-sql` deletes and creates a new sql database for the portal with the default configs. Used daily.
+`lrp restore-sql` is an abstraction for a more complex command which deletes and creates a new sql database for the portal with the default configs, deleting some temporary data on the fly. Used daily.
 
 ### Start 🚀
 
-`lrp start` runs the tomcat server and starts the Liferay Portal. Used intensively 😅
+`lrp start` is an abstraction of the catalina command that runs the tomcat server and starts the Liferay Portal. Used intensively 😅
 
 ### Stop 🧨
 
-`lrp stop` stops the tomcat server and kills the process. Used intensively 😅
+`lrp stop` stops the tomcat server killing the process. Used intensively 😅
 
 ### Update repo 🥤
 
-`lrp update-repo` checkouts to master branch, fetches from upstream/master and pushes to origin/master. Used daily.
+`lrp update-repo` groups some common git commands for convenience: checkout to master branch, rebase from upstream/master and push to origin/master. Used daily.
 
 ## Configuration
 
