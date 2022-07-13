@@ -50,6 +50,6 @@ Do you want to use this commands in you local environment?
 - Clone this repo
 - Install dependencies: `yarn` or `npm i`
 - Under `./config.js`
-  - add the path to you Liferay Portal main folder
-  - modify the Tomcat version, if needed
+  - add your path to the Liferay Portal main folder in `portalPath` var
+  - modify the Tomcat version, if needed, in `tomcatVersion` var
 - Reload the terminal session and run `lrp -V` or `lrp -h` to verify everything is OK.
