@@ -18,6 +18,7 @@ A collection of shortcuts for most common actions during Liferay product develop
 
 - Use `-a` option to use a fast deploy without installing dependencies.
 - Use `-w` option for watching for changes.
+- Use `-s` option for using the Liferay Super Deploy script, which builds all changes modules at once. [It depends on this other script](https://github.com/4lejandrito/liferay-super-deploy).
 
 ### Format 🖼
 
